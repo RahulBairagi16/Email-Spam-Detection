@@ -61,3 +61,30 @@ To run this project locally, follow these steps:
 1. Clone this repository:
    ```bash
    git clone https://github.com/rahulbairagi/email-spam-filtering.git
+   ```
+2. Install the required dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
+3. Run the Jupyter Notebook:
+  ```bash
+  jupyter notebook EmailSpam.ipynb
+  ```
+
+## Requirements
+- Python 3.x
+- Jupyter Notebook
+- Pandas
+- NumPy
+- Scikit-learn
+- NLTK
+- Matplotlib
+## Usage
+- Load the dataset in the Jupyter Notebook.
+- Preprocess the email data by running the preprocessing steps.
+- Train the model using the Naive Bayes and Random Forest classifiers.
+- Evaluate the model’s performance using the provided evaluation metrics.
+## File Structure
+- EmailSpam.ipynb: Contains all the code for preprocessing, model development, and evaluation.
+- README.md: This documentation.
+- requirements.txt: Contains all required Python libraries to run the project.
